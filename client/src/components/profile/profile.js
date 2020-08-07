@@ -11,12 +11,6 @@ const svg = document.querySelector('.pin.svg');
 class Profile extends React.Component{
     render() {
         anime({
-            targets: '#kate',
-            translateX: -400,
-            scale: 3,
-            duration: 300
-        });
-        anime({
             targets: '.button',
             translateX: 350,
             delay:800,
@@ -24,7 +18,7 @@ class Profile extends React.Component{
         });
         anime({
             targets: 'p',
-            translateX: -650,
+            translateX: 0,
             duration: 500
         });
         anime({
@@ -35,7 +29,7 @@ class Profile extends React.Component{
         });
         anime({
             targets: '.wrapper',
-            translateX: 350,
+            translateX: 0,
             scale: 1.5
         });
 
