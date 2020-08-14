@@ -1,27 +1,24 @@
 #kate {
   width: 100%;
-  min-width: 100%;
+  min-width: 1201px;
   display: flex;
-  height:1250px;
-  position: absolute;
-  top: -200px;
-  right: 0px;
-  transition: all 0.3s linear;
+  height:100%;
+  position: relative;
 }
 
 .button {
     height: 10%;
     width: 15%;
     font-size: 17px;
-    text-align: center;
-    left: 3%;
+    text-align: justify;
+    left: 50px;
     float: left;
-    bottom: 25%;
+    bottom: 800px;
     --offset: 10px;
     --border-size: 2px;
-    display: flex;
-    position: absolute;
-    padding: 1.5em 3em;
+    display: block;
+    position: relative;
+    padding: 1.9em 3em;
     appearance: none;
     border: 0;
     background: transparent;
@@ -89,22 +86,21 @@
     &:hover &__vertical {
         transform: scaleY(0);
     }
-
 }
 
 .button_cv {
     height: 10%;
     width: 15%;
     font-size: 17px;
-    text-align: center;
-    left: 3%;
+    text-align: justify;
+    left: -164px;
     float: left;
-    bottom: 8%;
+    bottom: 650px;
     --offset: 10px;
     --border-size: 2px;
-    display: block;
-    position: absolute;
-    padding: 1.5em 3em;
+    display: flex;
+    position: relative;
+    padding: 1.9em 3em;
     appearance: none;
     border: 0;
     background: transparent;
@@ -117,7 +113,6 @@
     border-radius: 0;
     box-shadow: inset 0 0 0 var(--border-size) currentcolor;
     transition: background .8s ease;
-
     &:hover {
         background: rgba(100, 0, 0, .03);
     }
@@ -172,7 +167,6 @@
     &:hover &__vertical {
         transform: scaleY(0);
     }
-
 }
 
 $color-primary: #81c2de;
@@ -186,10 +180,11 @@ $color-black: #191308;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: absolute;
-  left: 35%;
-  width: 800px;
-  height: 250px;
+  position: relative;
+  left: 300px;
+  top: -1400px;
+  width: 240px;
+  height: 0px;
   transition: all .4s ease-out;
 
   &__links {
@@ -277,12 +272,10 @@ $color-black: #191308;
 }
 
 p{
-	// layout
-	position: absolute;
-	max-width: 1200px;
     width: 20%;
-    right: 10%;
-    top: 55%;
+    position: relative;
+    right: -1000px;
+    bottom: 800px;
 
 	// looks
 	background-color: rgba(255, 255, 255, 0.15);
@@ -298,15 +291,14 @@ p:hover {
   box-shadow: 0 15px 20px rgba(116, 95, 90, 0.79);
   color: rgba(15, 22, 43, 0.71);
   transform: translateY(-7px);
-
 }
 
 .pin {
-  position: absolute;
-  top: 48%;
-  right: 27%;
+  position: relative;
+  bottom: 971px;
+  right: -780px;
   margin-left: -115px;
-  float: right;
+  float: left;
   border-radius: 50% 50% 50% 0;
   border: 4px solid #ff0000;
   width: 30px;
@@ -329,10 +321,11 @@ p:hover {
 
 #location{
   font-family: 'Montserrat', sans-serif;
-  position: absolute;
-  min-width: 100%;
-  top: 49%;
-  right: -29%;
+  position: relative;
+  float: left;
+  bottom: 1050px;
+  right: -500px;
+  width:100%;
   font-size: 39px;
 }
 #location:hover {
@@ -341,8 +334,8 @@ p:hover {
   transform: translateY(-7px);
 }
 
-body {background:url(https://html5book.ru/wp-content/uploads/2015/10/background54.png) rgb(252, 243, 240);
-  min-width: 100%;
+body {
+  //min-width: 100%;
 }
 
 main{
@@ -354,11 +347,11 @@ main{
     --border-size: 2px;
     appearance: none;
     border: 0;
-  position: absolute;
-  right: 3%;
-  bottom: 8%;
-  width: 35%;
-  height: 20%;
+  position: relative;
+  right: -900px;
+  bottom: 800px;
+  width: 500px;
+  height: 200px;
   line-height: 45px;
   margin: 10px 20px;
   font-family: 'Montserrat', sans-serif;
@@ -375,14 +368,19 @@ main{
   border-radius: 1rem;
 }
 #button_contacts:hover {
+
   display: block;
   background: rgb(255, 255, 255);
   box-shadow: 0 15px 20px rgba(116, 95, 90, 0.79);
   color: rgba(15, 22, 43, 0.71);
   transform: translateY(-7px);
 
+
 }
 .contacts_head{
+  position: relative;
+  right: 70px;
+  bottom: 130px;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   text-transform: uppercase;
@@ -408,16 +406,17 @@ main{
 
 .phone{
   color: #161f37;
-  //display: block;
+  display: block;
+  min-width: 1201px;
   position: absolute;
   border-radius: 45px;
   text-transform: lowercase;
-  right: 30%;
+  left: -77%;
   bottom: 50%;
   font-family: 'Montserrat Thin', sans-serif;
   font-size: 18px;
 }
-.phone:hover{
+#phone:hover{
   box-shadow: 0 15px 20px rgba(116, 95, 90, 0.79);
   color: rgba(15, 22, 43, 0.71);
   transform: translateY(-7px);
@@ -431,11 +430,12 @@ main{
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   text-transform: lowercase;
-  right: 20%;
+  left: -70%;
+  min-width: 1201px;
   bottom: 20%;
 
 }
-.mail:hover{
+#mail:hover{
   display: block;
   box-shadow: 0 15px 20px rgba(116, 95, 90, 0.79);
   color: rgba(15, 22, 43, 0.71);

@@ -10,7 +10,7 @@ class Profile extends React.Component{
 
     render() {
         return (
-            <main>
+            <body>
                 <img src="./img/IMG_0070.jpg" id="kate"/>
                 <p>Hi! I am Kate. I am Software Engineer at Huawei.</p>
                 <Popup trigger={
@@ -40,8 +40,12 @@ class Profile extends React.Component{
                 <div id="button_contacts">
                     <h1 className='contacts_head'>Contacts</h1>
                     <div className='contacts'>
+                       <a  className="1" href="tel:8-919-670-36-53">
                         <img id='phone' src='./img/phone.png'/>
+                       </a>
+                        <a href = "mailto:katyaklema@gmail.com?subject = Feedback&body = Hi Kate!">
                         <img id='mail' src='./img/mail.png'/>
+                        </a>
                         <a className='phone' href="tel:8-919-670-36-53">+7-919-670-36-53</a>
                         <a className='mail' href = "mailto:katyaklema@gmail.com?subject = Feedback&body = Hi Kate!">katyaklema@gmail.com</a>
                     </div>
@@ -108,7 +112,7 @@ class Profile extends React.Component{
                     </div>
                 </div>
 
-            </main>
+            </body>
         );
     }
 };
