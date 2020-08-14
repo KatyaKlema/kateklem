@@ -15,7 +15,7 @@ export default class About extends Component {
                     <h2 className="colorlib-heading">Who Am I?</h2>
                     <p>
                         I am Graduate Student in Moscow Institute of Physics and Technology (B.S in Computer Science).<br/>
-                        I love to learn new technologies, new programming languages ​​and am always in search of interesting projects.
+                        I love learning new technologies, new programming languages ​​and am always in search of interesting projects.
 
                     </p>
                     <p>Now I am looking for New Grad Positions. I am always open to new interesting offers.</p>
