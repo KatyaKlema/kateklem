@@ -1,18 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import Profile from "./components/profile/profile";
-import "./app.scss";
+import React, { Component } from 'react';
+import './App.css';
+import Sidebar from './components/sidebar'
+import Introduction from './components/introduction'
+import About from './components/about'
+import Timeline from './components/timeline'
 import { Helmet } from 'react-helmet'
-function App() {
-  return (
-    <div className="App">
-        <link rel="shortcut icon" href="star.png" />
-        <Helmet>
-          <title>{"Kate Klem"}</title>
-        </Helmet>
-        <Profile/>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div id="colorlib-page">
+        <div id="container-wrap">
+            <Helmet>
+                <title>{"Kate Klem"}</title>
+            </Helmet>
+         	<Sidebar></Sidebar>
+				<div id="colorlib-main">
+					<Introduction></Introduction>
+					<About></About>
+					<Timeline></Timeline>
+          	</div>
+      	</div>
+      </div>
+    );
+  }
 }
 
 export default App;
