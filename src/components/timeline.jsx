@@ -15,13 +15,41 @@ export default class Timeline extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
+
+                    <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                        <div className="timeline-entry-inner">
+                            <div className="timeline-icon color-7">
+                                <i className="icon-pen2" />
+                            </div>
+                            <div className="timeline-label">
+                                <h2>Software Engineer Intern at Facebook <span>Jul. 2021 - Oct. 2021</span></h2>
+                                <p>
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                        <div className="timeline-entry-inner">
+                            <div className="timeline-icon color-6">
+                                <i className="icon-pen2" />
+                            </div>
+                            <div className="timeline-label">
+                                <h2>Full Stack Developer at MTC <span>Jan. 2021 - Jul. 2021</span></h2>
+                                <p>
+                                    Developed the full backend and frontend of the b2b platform for the administration of sport gyms by managers.<br/>
+                                    Developed the backend side for the b2c phone application for booking workouts at gyms. <br/>
+                                    Wrote the full documentation for the backend API.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-1">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Software Engineer at Huawei <span>Oct. 2019 - Present</span></h2>
+                        <h2>Software Engineer at Huawei <span>Oct. 2019 - Jan. 2021</span></h2>
                         <p>
                           Developed and improved of system flows dispatching, developed CPU-GPU high performance computing module, parallelized systems and modules from signal processing framework. <br/>
                           Developed the framework for special binary formatting for signal data. <br/>

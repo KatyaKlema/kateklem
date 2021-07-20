@@ -14,11 +14,11 @@ export default class About extends Component {
                     <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
                     <p>
-                        I am Graduate Student in Moscow Institute of Physics and Technology (B.S in Computer Science).<br/>
+                        I am Graduate of the Moscow Institute of Physics and Technology (B.S in Computer Science).<br/>
                         I love learning new technologies, new programming languages ​​and am always in search of interesting projects.
 
                     </p>
-                    <p>Now I am looking for New Grad Positions. I am always open to new interesting offers.</p>
+                    <p>Now I am looking for a web development roles (full-stack, backend, frontend). I am always open to new interesting offers.</p>
                     </div>
                 </div>
                 </div>
@@ -45,7 +45,8 @@ export default class About extends Component {
                     <p>I developed the framework for special binary formatting for signal data using python
                         and created a full-fledged python API to the internal framework written in C++.</p>
                     <p>Developed and improved of system flows dispatching, developed CPU-GPU high performance computing module, parallelized systems and modules from signal processing framework</p>
-                    <p>I have experience developing websites using JavaScript, Node.js, React, Heroku, Docker, HTML, CSS</p>
+                    <p>I have experience developing websites using JavaScript/TypeScript, Node.js, React, Redux, AWS, Heroku, Docker, HTML/CSS</p>
+                    <p>Developed backend and frontend sides of the b2b platform for the administration of sport gyms by managers and backend  for the b2c phone application for booking workouts at gyms.</p>
                 </div>
                 </div>
             </div>
